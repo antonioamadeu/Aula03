@@ -20,7 +20,7 @@ public class PaisesDb {
 
     public void inserePaises(Pais[] paises){
         SQLiteDatabase db = dbHelper.getWritableDatabase();
-        
+
         db.delete(PaisesContract.PaisEntry.TABLE_NAME, null, null);
 
         for(Pais pais:paises){
