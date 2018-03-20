@@ -15,7 +15,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * Created by Antonio Amadeu Freire Lucena 816117925
+ * Created by Antonio Amadeu Freire Lucena  - 816117925
  */
 
 public class GeoDataNetwork {
